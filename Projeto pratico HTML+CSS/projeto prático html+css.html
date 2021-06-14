@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+	<title>Formulário</title>
+    <link rel="stylesheet" href="css.css">
+  </head>
+  <body>
+    <header>
+      <h2>Projeto</h2>
+    </header>
+	<main id="container">
+	  <section id="form">
+	    <div id="card">
+		   <label>Nome</label><br>
+		   <input class="first-information" type="text" name="nome" id="nome" placeholder="Coloque seu nome..." ><br><br>
+		   <label>Email</label><br>
+		   <input class="first-information" type="email" name="email" id="email" placeholder="Coloque o seu Email"><br><br>
+		   <label>Idade(opcional)</label><br>
+		   <input class="first-information" type="text" name="idade" id="idade" placeholder="idade"><br><br>
+		   <label>Qual opção melhor descreve o seu estado atual?</label><br>
+		   <select name="select">
+           <option value="ocupação" selected>Selecione a ocupação</option>
+           <option value="estudante">Estudante</option>
+           <option value="clt">CLT</option>
+		   <option value="não">Prefiro não dizer</option>
+		   <option value="outro">Outro</option>
+           </select><br><br>
+		   <label>Você recomendaria este projeto?</label><br>
+		   <input class="option" type="radio" name="nome" value="com certeza!">Com certeza!<br>
+		   <input class="option" type="radio" name="nome" value="talvez">Talvez<br>
+		   <input class="option"type="radio" name="nome" value="não">Não sei<br><br>
+		   <label>O que você gostaria de melhorar(Selecione quantos quiser.)</label><br><br>
+           <input type="checbox" name="melhorar" value="ter mais tempo para estudar">Ter mais tempo para estudar<br>
+		   <input type="checbox" name="melhorar" value="estudar mais o que gosto">Estudar mais o que gosto<br>
+		   <input type="checbox" name="melhorar" value="gêrencia de projetos">Gêrencia de projetos<br>
+		   <label>Mensagens:</label> <br><br>
+	       <textarea name="mensagem" rows="6" cols="40" placeholder="insira essa bosta aqui"></textarea><br><br>
+		   <input type="submit" name="btn-enviar" value="Enviar">
+		   
+		</div>
+	  </section>
+	</main>
+  </body>
+</html>
